@@ -1,0 +1,1149 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; /* Fuente predeterminada */
+    background-color: rgb(171, 252, 117);
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2c503f;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+   color: #fffdfd;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e74c3c;
+}
+
+/* Estilos para el logo */
+#logo {
+    height: 40px;
+    margin-left: 20px;
+}
+
+
+.section {
+    scroll-margin-top: 50px; /* Margen superior para compensar la barra de navegación fija */}
+
+/* Estilos para las secciones */
+.queeslasociedadcooperativa, .importancia, .comoseconstituye {
+    color: #2c3e50; /* Color del texto */
+    margin: auto;
+    margin-top: 40px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más moderno */
+    border-radius: 5px;
+    background-color: #fff; /* Color de fondo */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.queeslasociedadcooperativa:hover, 
+.importancia:hover, 
+.comoseconstituye:hover {
+    transform: scale(1.05); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.queeslasociedadcooperativa h2, 
+.importancia h2, 
+.comoseconstituye h2 {
+    color: #2c3e50; /* Color del título */
+    transform: translateY(10px);
+    font-size: 24px; /* Tamaño del título */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; /* Fuente del título */
+}
+
+.queeslasociedadcooperativa img, 
+.importancia img, 
+.comoseconstituye img {
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Centra la imagen */
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más moderno */
+}
+
+.queeslasociedadcooperativa p, 
+.importancia p, 
+.comoseconstituye p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif; /* Fuente del texto */
+}
+#logo {
+    position: absolute; /* Establece la posición absoluta */
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    left: 20px; /* Ajusta la distancia desde la izquierda */
+    height: 40px; /* Autoajustar la altura para mantener la proporción */
+    z-index: 1;
+    
+}
+
+
+.queeslasociedadcooperativa {
+    color: rgb(20, 18, 10);
+    margin: auto;
+    margin-top: 40px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 10%;
+}
+
+.queeslasociedadcooperativa:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.queeslasociedadcooperativa h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 20px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.queeslasociedadcooperativa img {
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.queeslasociedadcooperativa p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+}
+
+.importancia {
+    color: rgb(20, 18, 10);
+    margin: auto;
+    margin-top: -473px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 60%;
+    
+}
+
+.importancia:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.importancia h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 20px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.importancia img {
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.importancia p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+}
+
+.comoseconstituye {
+    color: rgb(20, 18, 10);
+    margin: auto;
+    margin-top: 50px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 10%;
+    
+}
+
+.comoseconstituye:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.comoseconstituye h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 20px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.comoseconstituye img {
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.comoseconstituye p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish"
+}
+
+.ejemplos {
+    color: rgb(20, 18, 10);
+    margin: auto;
+    margin-top: -472px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 60%;
+    
+}
+
+.ejemplos:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.ejemplos h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 20px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.ejemplos img {
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.ejemplos p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish"
+}
+
+#section2 h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+video {
+    height: 100px;
+    width: 1000px;
+    margin-top: 100px;
+}
+
+.sinoentendiste {
+
+    
+    font-size: 16px;
+    margin-left: 100px;
+    display: block;
+
+}
+
+.video {
+    width: 600px;
+    height: 400px;
+    margin-left: 350px;
+}
+
+#section3 p {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container1{
+    margin-top: 100px;
+}
+
+#section3 {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: -50px;
+    font-size: 25px;
+    
+}
+
+.secondtitu{
+    font-family: "Stylish", serif;
+    font-size: 80px;
+}
+
+#section3 p {
+    font-size: 200px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+.videoclick {
+    margin-top: 100px;
+    
+}
+
+
+#a {
+    color: blue;
+}
+
+.containerpasos {
+    margin-left: 90px;
+}
+
+
+.pasos {
+    color: rgb(20, 18, 10);
+    margin: auto;
+    margin-top: 40px;
+    width: 350px;
+    height: 600px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 600px;
+}
+
+.pasos:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.pasos h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 20px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.pasos img {
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.pasos p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+}
+
+
+
+
+.final {
+    color: rgb(20, 18, 10);
+    margin: auto;
+    margin-top: px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 10%;
+    margin-bottom: 1000px;
+}
+
+.final:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.final h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 20px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.final img {
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.final p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+}
+
+
+.resumen {
+    color: rgb(20, 18, 10);
+    margin: auto;
+    margin-top: 40px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 10%;
+}
+
+.resumen:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.resumen h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 20px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.resumen img {
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.resumen p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+}
+
+
+
+.fin {
+    color: rgb(20, 18, 10);
+    margin: auto;
+    margin-top: 40px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 10%;
+}
+
+.fin:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.fin h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 20px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.fin img {
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.fin p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .imagen {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Sombra negra */
+    transition: all 0.3s ease; /* Agrega transición suave */
+    background-color: red;
+  }
+  
+  .imagen:hover {
+    transform: scale(1.1); /* Efecto de crecimiento al pasar el mouse */
+  }
+  
+  .imagen1 {
+    width: 350px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Sombra negra */
+    transition: all 0.3s ease; /* Agrega transición suave */
+    margin-left: 585px;
+  }
+  
+  .imagen1:hover {
+    transform: scale(1.1); /* Efecto de crecimiento al pasar el mouse */
+  }
+  
+
+/* PARTE 2222222222222222222222222222222222222222222222222*/
+
+
+.containermasdetallado {
+    color: rgb(20, 18, 10);
+    margin: auto;
+    margin-top:70px;
+    width: 500px;
+    height: 600px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 400px;
+    margin-bottom: -150px;
+}
+
+.containermasdetallado:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.containermasdetallado h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 20px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    margin-left: 10px;
+}
+
+.containermasdetallado img {
+    border-radius: 5px;
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.containermasdetallado p {
+    margin: 10px;
+    margin-top: 10%;
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+    margin-left: 10px;
+}
+
+
+.penultimopunto {
+    color: rgb(20, 18, 10);
+    
+    margin-top: 40px;
+    width: 900px;
+    height: 900px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: -200px;
+}
+
+.penultimopunto:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.penultimo h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 100% bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.penultimopunto img {
+    border-radius: 5px;
+    margin-left: 330px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.penultimopunto p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+}
+
+.containerpasos h1 {
+    margin-left: 350px;
+
+}
+
+
+
+.containerpasos section {
+    margin-left: 400px;
+}
+
+
+
+
+
+.enlace-personalizado {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.masdetallado {
+    margin-left: 13px;
+}
+
+
+.penultimo {
+    margin-top: 300px;
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 13px;
+}
+
+
+
+
+.resumen {
+    margin-top: 400px;
+    margin-left: 13px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.fin {
+    margin-top: 150px;
+    margin-left: 13px;
+
+}
+
+.imagen {
+    height: 320px;
+    width: 210px;
+    margin-top: -400px;
+}
+
+.imagen1 {
+    height: 320px;
+    width: 210px;
+    margin-top: -10000000000000000000px;
+}
+
+
+.ultimo {
+    font-size: 10px;
+}
+
+.queeslasociedadcooperativa {
+    color: rgb(20, 18, 10);
+    margin: auto;
+    margin-top: 40px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 10%;
+}
+
+.queeslasociedadcooperativa:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.queeslasociedadcooperativa h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 20px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.queeslasociedadcooperativa img {
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.penultimo p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+    
+}
+.penultimopunto {
+    margin-left: 200px;
+}
+
+
+
+
+.hemosllegado {
+    color: rgb(20, 18, 10);
+    
+    margin-top: 130px;
+    width: 900px;
+    height: 550px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 200px;
+}
+
+.hemosllegado:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.hemosllegado h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 100% bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.hemosllegado img {
+    border-radius: 5px;
+    margin-left: 330px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.hemosllegado p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+}
+
+.resumen1 {
+    color: rgb(20, 18, 10);
+    
+    margin-top: -300px;
+    width: 600px;
+    height: 550px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 300px;
+}
+
+.resumen1:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.resumen1 h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 30px bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.resumen1 img {
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.resumen1 p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylish", serif;
+}
+
+.fin1 {
+    color: rgb(20, 18, 10);
+    
+    margin-top: 200px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    background-color: rgba(110, 192, 165, 0.616);
+    transition: all 0.3s ease; /* Agrega una transición suave */
+    margin-left: 350px;
+    margin-bottom: 300px;
+}
+
+.fin1:hover {
+    transform: scale(1.1); /* Agranda el contenedor al pasar el ratón por encima */
+}
+
+.fin h2 {
+    color: rgb(20, 18, 10);
+    transform: translateY(10px);
+    font-size: 100% bold;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.fin img {
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.fin p {
+    margin: 10px;
+    margin-top: 10%; /* Esto se va a ajustar dependiendo de la cantidad de informacion que me proporcionen los autores de la pagina */
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Stylisfin"; }
+
+
+    .ultimoo {
+        
+        font-size: 13px;
+    }
+
+    .copy {
+        text-align: center;
+        margin-top: 75px;
+    }
+/* Eliminar la barra de navegación y el logo en dispositivos móviles */
+@media screen and (max-width: 500px) {
+    nav {
+        display: none; /* Oculta la barra de navegación en dispositivos móviles */
+    }
+
+    #logo {
+        display: none; /* Oculta el logo en dispositivos móviles */
+    }
+
+    /* Ajustar el posicionamiento de las secciones */
+    .queeslasociedadcooperativa, .importancia, .comoseconstituye, .ejemplos {
+        margin-top: 20px; /* Ajusta el margen superior entre las secciones */
+        margin-left: auto; /* Centra las secciones horizontalmente */
+        margin-right: auto;
+        margin-left: 10px; /* Mueve las secciones un poco más a la derecha */
+    }
+
+    /* Eliminar la letra 'a' en la parte superior */
+    #a {
+        display: none;
+    }
+
+    /* Ocultar la barra de navegación en dispositivos móviles */
+    nav {
+        display: none;
+    }
+
+    /* Reducir el tamaño de las secciones */
+    .queeslasociedadcooperativa, .importancia, .comoseconstituye, .ejemplos {
+        width: 320px;
+        height: 400px;
+        margin-top: 10px;
+    }
+
+    /* Ajustar el espaciado interno de los elementos p */
+    .queeslasociedadcooperativa p, 
+    .importancia p, 
+    .comoseconstituye p, 
+    .ejemplos p {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .queeslasociedadcooperativa {
+        width: 350px;
+        height: 460px;
+    }
+
+    .importancia {
+        height: 460px;
+        width: 350px;
+    }
+
+    .comoseconstituye {
+        height: 460px;
+        width: 350px;
+    }
+
+    .ejemplos {
+        height: 460px;
+        width: 350px;
+    }
+}
+
+.ejemplos p {
+    font-size: 12px;
+    margin-top: 5%; /* Ajusta el margen superior del párrafo */
+}
+
+/* Reducir el tamaño del video */
+.videoclik video {
+    width: 300px;
+    height: 190px;
+    margin-left: 50px;
+}
+
+#section3 p {   
+ font-size: 15px;
+}
+
+#section2 p {
+margin-left: 36px;
+font-size: 13px;
+
+}
+
+.pasos {
+    margin-left: 13px;
+    height: 500px;
+}
+
+
+.masdetallado{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.enlace-personalizado {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.masdetallado {
+    margin-left: 13px;
+}
+
+
+.penultimo {
+    margin-top: 300px;
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 13px;
+}
+
+
+.final {
+    margin-top: 1000px;
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 13px;
+}
+
+.resumen {
+    margin-top: 400px;
+    margin-left: 13px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.fin {
+    margin-top: 150px;
+    margin-left: 13px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.imagen {
+    height: 320px;
+    width: 210px;
+    margin-top: -400px;
+}
+
+.imagen1 {
+    height: 320px;
+    width: 210px;
+    margin-top: -10000000000000000000px;
+}
+
+
+.ultimo {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+/*font-family: 'Abril Fatface', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: "Permanent Marker", cursive;
+font-family: "Stylish", serif;*/
+body {
+    margin: 0;
+    padding: 0;
+    
+ 
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Cambiado a un valor positivo */
+}
+
+.header {
+    
+    padding-bottom: 680px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 1; /* Añadido un z-index más alto para que esté sobre el fondo de video */
+}
+
+.imgprin {
+    position: relative; /* Añade posición relativa al contenedor de la imagen */
+    width: 700px; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto; /* Centra el contenedor de la imagen horizontalmente */
+}
+
+.imgprin img {
+    position: absolute; /* Posición absoluta para la imagen */
+    top: 150px; /* Ajusta la posición superior */
+    left: -10%; /* Ajusta la posición izquierda */
+    z-index: 1; /* Asegura que la imagen esté encima */
+    width: 130%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura automáticamente */
+    transition: transform 0.5s; /* Transición suave de 0.5 segundos */
+}
+
+.imgprin img:hover {
+    transform: scale(1.02); /* Escala la imagen un 2% más grande */
+}
+
+.hd .img2{
+    position: absolute; /* Posición absoluta para la otra imagen */
+    top: 20%; /* Ajusta la posición superior */
+    left: 50%;
+    transform: translateX(50%); /* Centra la imagen horizontalmente */
+    z-index: 0; /* Asegura que la imagen esté detrás del texto */
+    height: 500px; /* Ajusta la altura según sea necesario */
+    height: 475px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .header {
+        padding-bottom: 150px; /* Se ajustó la altura del header para dispositivos muy pequeños */
+    }
+
+    .imgprin {
+        width: 250px; /* Se aumenta el tamaño del contenedor de la imagen principal */
+        margin: 0 auto; /* Centra el contenedor horizontalmente */
+    }
+
+    .imgprin img {
+        top: 100px; /* Ajusta la posición superior de la imagen principal */
+        width: 400px; /* Se ajusta el tamaño de la imagen al 100% del contenedor */
+        left: -50px; /* Centra la imagen horizontalmente */
+        transform: none; /* Elimina la transformación hover */
+    }
+
+    .hd .img2 {
+        position: absolute; /* Posición absoluta para la segunda imagen */
+        width: 200px; /* Ajusta el ancho de la segunda imagen */
+        height: 180px; /* Ajusta la altura de la segunda imagen */
+        top: 400px; /* Posición superior de la segunda imagen */
+        left: 25px; /* Posición izquierda de la segunda imagen */
+    }
+}
